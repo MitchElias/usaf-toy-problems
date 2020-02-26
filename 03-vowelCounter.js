@@ -13,8 +13,14 @@ vowelCounter("Hawaii")
 
  */
 
- var vowelCounter = function(string) {
-  // YOUR CODE HERE
-};
 
-// console.log(vowelCounter("Banana"))
+
+var vowelCounter = function(string) {
+for (i=0; i < string.length; i++) {
+ch = string.length(i);
+if(ch == 'a' || ch == 'e' || ch == 'i' || ch =='o' 
+|| ch == 'u')
+  count ++
+  }
+}
+ console.log(vowelCounter("Banana"))
